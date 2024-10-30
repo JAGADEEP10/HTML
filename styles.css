@@ -1,0 +1,147 @@
+.header {
+    padding: 60px;
+    text-align: center;
+    background: rgba(204, 84, 84, 0.384);
+    color: gold;
+  }
+
+body{
+    background-image: url("back.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover; 
+    color:white;
+    font-family: "Lato", sans-serif;
+}
+h1{
+    text-shadow: 0px 0px 4px red, 0px 0px 6px red, 0px 0px 8px red;
+    font-size: 50px;
+    font-weight: bold; 
+}
+p{
+    font-size: 25px;
+}
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+table, th, td {
+    border:1px solid gold;
+  }
+th{
+    font-weight: bold;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgba(204, 84, 84, 0.384);
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: gold;
+    font-weight: bolder;
+    font-size: large;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#head1 {
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 4px red, 0px 0px 6px red, 0px 0px 8px red;
+    font-size: 50px;
+    font-weight: bold; 
+}
+
+form {
+    max-width:600px;
+    margin:0 auto;
+    padding:20px;
+    background-color:rgb(251, 162, 162);
+    border-radius:8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.577);
+}
+
+#phone,input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"],
+input[type="reset"]
+{
+    background-color:rgb(233, 237, 19);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover
+{
+    background-color:rgb(219, 163, 21);
+}
+
+.error-message {
+    color: rgb(25, 25, 243);
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+#about {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#about p {
+    text-align: justify;
+}
+
+.footer {
+    padding: 20px 0;
+    text-align: center;
+    background: rgb(210, 50, 50);
+    color: gold;
+  }
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+.footer ul li:last-child {
+    margin-right: 0;
+}
+.footer a {
+    color: gold;
+    text-decoration: none;
+}
+.social-icons img {
+    width: 45px;
+    height: auto;
+    margin-right: 5px;
+}
